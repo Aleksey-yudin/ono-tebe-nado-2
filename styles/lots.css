@@ -1,0 +1,60 @@
+.lots {
+    margin-bottom: 182px;
+}
+
+.lots-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 90px;
+    margin-bottom: 27px;
+}
+
+.lots-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.lots-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 430px;
+    height: 450px;
+    position: absolute;
+}
+
+.lots-item {
+    width: 430px;
+    height:450px;
+    list-style: none;
+}
+
+.lots-item-title {
+    color: #FFF;
+    z-index: 1;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    padding: 50px 40px 0 40px;
+}
+
+.lots-item-text {
+    z-index: 1;
+    color: #FFF;
+    position: absolute;
+    font-size: 20px;
+    line-height: 120%;
+    padding: 0 40px 0 40px;
+    bottom: 50px;
+}
+
+.lots-look-more {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-left: 90px;
+}

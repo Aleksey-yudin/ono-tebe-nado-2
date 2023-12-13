@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 92px 50px 0 50px;
+    margin-bottom: 92px;
+    font-size: 18px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-logo {
+    max-width: 105px;
+    position: absolute;
+    left: 50%;
+}
+
+.header-contacts {
+    max-width: 240px;
+}
+
+.header-contacts a {
+    text-decoration: underline;
+}
